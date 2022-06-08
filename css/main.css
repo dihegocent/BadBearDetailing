@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.carousel-inner{
+    max-height: 39 rem;
+}
+
+
+#header{
+   bg-primary: rgb(122, 104, 204);
+}
+
+@media (max-width: 768px){
+    #intro, #equipo{
+        width: 90% !important;
+    
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
