@@ -33,6 +33,10 @@ body{
         width: 100% !important;
         text-align: center;
     }
+    #bg-contato{
+        position: relative;
+        top: -110px;
+    }
 }
 
 @media(max-width:576px){
@@ -132,4 +136,15 @@ body{
 
 #numeros local p{
     margin: 0;
+}
+
+#bg-contato{
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
 }
