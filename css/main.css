@@ -29,12 +29,15 @@ body{
         width: 90% !important;
     
     }
+
+    #equipo p {
+        display: none;
+    }
     .servicio-fila{
         width: 100% !important;
         text-align: center;
     }
-    #bg-contato{
-        position: relative;
+    #bg-contacto{
         top: -110px;
     }
 }
@@ -85,11 +88,11 @@ body{
 }
 
 #numeros-local div:not(:last-child){
-    border-right: 2px #f3f3f3;
+    border-right: 2px #3f3f3f;
 }
 
-#numeros-lcoal div:not(:first-child){
-    padding: -left:20px;
+#numeros-local div:not(:first-child){
+    padding-left:20px;
 }
 
 #local{
@@ -99,42 +102,22 @@ body{
     justify-content: center;
 }
 
-.wrapper{
-    width: 50%;
-    margin-left: 100px;
-    margin-top: 150px;
-}
-
-@media(max-width:1200px){
-    #local{
-        flex-wrap: wrap;
-        padding-top: 30px;
-
-    }
-
-    .wrapper{
-        width:90% ;
-        margin:auto;
-        padding-top:50px ;
-    }
-}
-
 #numeros-local div{
     padding: 0 20px 0 0;
     height: 48px;
 }
 
-#numeros-local div:not(last-child){
+#numeros-local div:not(:last-child){
     border-right:2px solid #3f3f3f ;
 
 
 }
 
-#numeros local div:not(:first-child){
+#numeros-local div:not(:first-child){
     padding-left: 20px;
 }
 
-#numeros local p{
+#numeros-local p {
     margin: 0;
 }
 
@@ -147,4 +130,19 @@ body{
     background-color: #1b2a4e;
     min-height: 500px;
     position: relative;
+}
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate( -50%, -50%) ;
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
 }
